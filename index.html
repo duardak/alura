@@ -4,23 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="reset.css">
+    <title>ALURA BOOK</title>
     <link rel="stylesheet" href="style.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    
 
 </head>
 <body>
     <header class="cabecalho">
         <div class="container">
+            <input type="checkbox" id="menu" class="container-botao">
+        <label for="menu">
             <span class="cabecalho"></span>
             <a href="#"><img src="img/Menu.png" alt="menu hamburguer"></a>
             <a href="#"><img src="img/Polygon 1 (Stroke).png" alt="triangulo"></a>
+        </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Programação</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Front-End</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Infraestrutura</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Business</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Design & UX</a>
+                </li>
+            </ul>
+
         </div>
         <div class="container">
-            <a href="#"><img src="img/Favoritos.png" alt="coracao"></a>
-            <a href="#"><img src="img/Compras.png" alt="carrinho compra"></a>
-            <a href="#"><img src="img/Usuario.png" alt="meu perfil"></a>
+            <a href="#"><img src="img/Favoritos.png" alt="coracao" class="container-imagem"></a>
+            <a href="#"><img src="img/Compras.png" alt="carrinho compra" class="container-imagem"></a>
+            <a href="#"><img src="img/Usuario.png" alt="meu perfil" class="container-imagem"></a>
         </div>
     </header>
 </body>
